@@ -1,9 +1,9 @@
 require 'sinatra'
 
 #
-# get '/' do
-# 	"Hello World"
-# end
+	get '/' do
+		redirect '/hello_world.html'
+end
 #
 # get '/blah' do
 # 	"Hello World"
