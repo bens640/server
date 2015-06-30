@@ -1,6 +1,4 @@
 class Stocker
-	require 'httparty'
-	require 'nokogiri'
 
 	def initialize
 		@response = HTTParty.get("http://finance.yahoo.com/q?s=AAPL")

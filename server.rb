@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'httparty'
+require 'nokogiri'
 require './public/stock_picker.rb'
 
 
