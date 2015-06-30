@@ -1,8 +1,14 @@
 require 'sinatra'
+require './public/stock_picker.rb'
 
-#
+
+
+
+
 	get '/' do
-		redirect '/hello_world.html'
+		stock = Stocker.new
+		stock.printout
+		# redirect '/hello_world.html'
 end
 #
 # get '/blah' do
